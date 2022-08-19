@@ -7459,9 +7459,19 @@ footer.style-6 {
   margin: 0 0 20px 0;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 992px){
   .testimonials.style-4 .content .testi-cards .client_card .user_img {
     margin-right: 0px;
     margin-bottom: 30px;
+  }
+  .section-head.style-4 h2{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: normal;
+  }
+  .titulo{
+    font-size: 50px !important;
+    font-weight: 900;
+    letter-spacing: normal;
   }
 }

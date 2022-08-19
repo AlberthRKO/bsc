@@ -140,7 +140,7 @@ $(function () {
 });
 
 AOS.init({
-  duration: 1600,
+  duration: 1500,
   easing: "ease-in-out",
 });
 
