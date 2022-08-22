@@ -2059,7 +2059,7 @@ header.style-3 {
 /* ------------ animation -------- */
 header.style-4 {
   position: relative;
-  padding: 60px 0; }
+  padding: 70px 0; }
   header.style-4 .content {
     position: relative;
     overflow: hidden; }
@@ -4666,7 +4666,7 @@ header.style-6 {
 ================================================================*/
 /* --------------- screenshots style-4 --------------- */
 .screenshots.style-4 {
-  background-color: #f0eff5;
+  background-color: transparent;
   overflow: hidden;
   padding-top: 100px;
   position: relative;
@@ -7474,4 +7474,53 @@ footer.style-6 {
     font-weight: 900;
     letter-spacing: normal;
   }
+  footer.style-4 .wave{
+    width: 99.6%;
+  }
+}
+
+.navbar.style-4 {
+  padding: 10px 15px !important;
+}
+
+.navbar.style-4 li a{
+  white-space: nowrap;
+}
+.nera-section{
+  padding-bottom: 0px !important;
+}
+.screenshots.style-4 .screenshots-slider .img {
+  position: relative;
+  transition: all .3s ease;
+  box-shadow: 0px 26px 77px 0px #44444426;
+}
+.screenshots.style-4 .screenshots-slider .img {
+  border-radius: 20px;
+}
+.screenshots.style-4 .screenshots-slider .img::before {
+  content: "";
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+  background-image: linear-gradient(100deg, #fff, #0398ed);
+  background-repeat: repeat-x;
+  /* -webkit-transition: all 0.5s; */
+  transition: all 0.5s;
+  width: 99%;
+  height: 100%;
+  z-index: -2;
+}
+.screenshots.style-4 .screenshots-slider .img:hover::before{
+  width: 103%;
+  transform: rotate(2deg) translateX(-7px) translateY(11px) !important;
+  box-shadow: 0px 46px 77px 0px #0a2b5326;
+}
+.nera-section .swiper-container{
+  padding-bottom: 7rem !important;
+}
+footer .idiomas li a,
+.nav-side li a{
+  cursor: pointer;
 }

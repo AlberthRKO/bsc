@@ -1,3 +1,20 @@
+$.getJSON("lang/lang.json", function (json) {
+  // Preguntamos en la memoria local si hay un lenguaje guardado
+  if (!localStorage.getItem("lang")) {
+    localStorage.setItem("lang", "en");
+  }
+  let def = localStorage.getItem("lang");
+  $(".lang").each(function (index, value) {
+    $(this).html(json[def][$(this).attr("key")]);
+  });
+  $(".translate").click(function () {
+    let lang = $(this).attr("id");
+    localStorage.setItem("lang", lang);
+    $(".lang").each(function (index, value) {
+      $(this).html(json[lang][$(this).attr("key")]);
+    });
+  });
+});
 $(function () {
   var wind = $(window);
 
