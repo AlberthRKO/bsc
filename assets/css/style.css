@@ -4677,10 +4677,11 @@ header.style-6 {
     bottom: -1px;
     left: 0;
     width: 100%;
-    height: 30px;
+    height: 50px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    background-color: #fff;
+    /* le damos color degradado */
+    background:linear-gradient(to top, #fff, transparent);
     z-index: 10; }
   .screenshots.style-4 .screenshots-slider {
     position: absolute;
@@ -7451,6 +7452,11 @@ footer.style-6 {
     letter-spacing: normal;
   }
 }
+@media screen and (max-width: 480px){
+  .nera-section .screenshots img{
+    max-width: 125% !important;
+  }
+}
 .features-card.style-5 .icon img{
   width: auto;
   height: 80px !important;
@@ -7523,4 +7529,8 @@ footer.style-6 {
 footer .idiomas li a,
 .nav-side li a{
   cursor: pointer;
+}
+
+.about.style-4 .bottom-wave {
+  background: #F3F7FE;
 }

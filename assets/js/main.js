@@ -157,7 +157,7 @@ $(function () {
 });
 
 AOS.init({
-  duration: 1500,
+  duration: 1000,
   easing: "ease-in-out",
 });
 
@@ -430,7 +430,7 @@ $(document).ready(function () {
     loop: true,
     breakpoints: {
       0: {
-        slidesPerView: 2,
+        slidesPerView: 1,
       },
       480: {
         slidesPerView: 2,
