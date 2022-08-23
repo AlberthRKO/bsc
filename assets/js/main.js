@@ -18,6 +18,10 @@ $.getJSON("lang/lang.json", function (json) {
 $(function () {
   var wind = $(window);
 
+  /* Seccion de particle _Js */
+  particlesJS.load("particle-js", "particles.json", function () {
+    // console.log("callback - particles.js config loaded");
+  });
   // wow = new WOW({
   //     boxClass: 'wow',
   //     animateClass: 'animated',

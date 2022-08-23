@@ -7451,6 +7451,9 @@ footer.style-6 {
     font-weight: 800;
     letter-spacing: normal;
   }
+  .nft-section .features-card{
+    padding: 20px 25px;
+  }
 }
 @media screen and (max-width: 480px){
   .nera-section .screenshots img{
@@ -7533,4 +7536,164 @@ footer .idiomas li a,
 
 .about.style-4 .bottom-wave {
   background: #F3F7FE;
+}
+
+/* Arreglos nuevos */
+.btn {
+  border-radius: 2rem;
+  padding: 0.6rem 2rem;
+  font-weight: bold;
+}
+/* Estilos .btn-primary */
+.btn-primario {
+  color: #5842BC;
+  background-color: transparent;
+  border-color: #5842BC;
+  position: relative;
+  overflow: hidden;
+  /* lo encuadra lo que esta alrededor */
+  z-index: 1;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+
+.btn-primario:hover {
+  color: #fff;
+  /* background-color: transparent; */
+  border-color: #4E1C99;
+  border: none;
+  box-shadow: 0px 12px 15px -5px rgb(88 66 188 / 75%);
+}
+
+.btn-primario:active {
+  color: #35363c !important;
+  background-color: #6666f2 !important;
+  border-color: #7474f3 !important;
+}
+
+.btn-primario:focus {
+  color: #fff;
+  background-color: #5842BC;
+  border-color: #6666f2;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(78, 78, 240, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(78, 78, 240, 0.5) !important;
+  /* importan para que se inponga cuando sea focus y active  */
+}
+
+/* insertamos la flecha del boton principal */
+.btn-primario::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f095";
+  position: relative;
+  left: 0.7rem;
+  top: 0.05rem;
+  -webkit-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.btn-primario:hover:after,
+.btn-primario:active:after,
+.btn-primario:focus:after {
+  left: 0.55rem;
+}
+
+/* insertamos la caja blanca del boton principal */
+.btn-primario::before {
+  content: "";
+  z-index: -1;
+  width: 0;
+  height: 100%;
+  background: #5842BC;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: skew(45deg, 0);
+          transform: skew(45deg, 0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.btn-primario:hover:before,
+.btn-primario:focus:before,
+.btn-primario:active:before {
+  width: 130%;
+  left: -15%;
+}
+
+
+
+/* Section de servicios */
+.nera-section{
+  position: relative;
+  background: url(../../img/fondos/fondoNera.png) center center / cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+}
+.nera-section::before {
+  content: "";
+  background: rgba(243, 247, 254, 0.9);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nft-section .features-card{
+  border: 1px solid #9993;
+  background: url(../../img/fondos/fondo1.png) center center / cover;
+}
+.web3 .features-card,
+.metaverso .features-card{
+  background: url(../../img/fondos/fondo3.jpg) center center / cover;
+}
+.nft-section .features-card:hover{
+  border: none;
+  color: inherit;
+}
+.nft-section .features-card.style-5:hover::before{
+  transform: rotate(3deg) translateX(-7px) !important;
+}
+.imagenSalida{
+  margin-top: -5rem;
+  transition: all .3s ease-in-out;
+}
+.nft-section .features-card:hover .imagenSalida{
+  margin-top: -10rem;
+}
+#particle-js{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: transparent;
+}
+/* para que funcione el particle */
+/* .nera-section, */
+.about.style-4 .content {
+  z-index: -1;
+}
+.content-info{
+  position: relative;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #9993;
+}
+.content-info::before{
+  content: "";
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+  background: transparent;
+  /* -webkit-transition: all 0.5s; */
+  transition: all 0.5s;
+  width: 99%;
+  height: 100%;
+  z-index: -2;
+}
+.content-info:hover{
+  background-color: red !important;
 }
