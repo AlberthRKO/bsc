@@ -7326,12 +7326,30 @@ footer.style-6 {
 
 
 /* Seccion de cambios y arreglos */
-
-.headersito{
-  background: url(../../img/fondos/fondo.jpg) center center / cover;
-  position: relative;
+header.style-4 .content .info h1{
+  font-size: 4.2rem !important;
 }
-.headersito:before {
+@media screen and (max-width: 991px){
+  header.style-4 .content .info h1 {
+    font-size:  52px !important;
+    line-height: 40px;
+    margin-bottom: 15px !important;
+  }
+}
+.headersito{
+  background: url(../../img/baner/BANNER-BLOCKCHAIN-WHITE.png) center bottom / cover;
+  /* background-position: top; */
+  position: relative;
+  height: 90vh;
+}
+@media screen and (max-width: 768px){
+  .headersito{
+    height: 80vh !important;
+    background: url(../../img/baner/BANNER-BLOCKCHAIN-WHITE.png) right center / cover;
+    background-position-x: 84% !important;
+  }
+}
+/* .headersito:before {
   content: "";
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
@@ -7339,7 +7357,7 @@ footer.style-6 {
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 .bg-fondo{
   background: #F0EFF5;
 }
@@ -7644,7 +7662,7 @@ footer .idiomas li a,
   border: 1px solid #9993;
   background: url(../../img/fondos/fondo1.png) center center / cover;
 }
-.web3 .features-card,
+.nftsitos .features-card,
 .metaverso .features-card{
   background: url(../../img/fondos/fondo3.jpg) center center / cover;
 }
