@@ -141,6 +141,16 @@ $(function () {
     $(".products-content .products").removeClass("list-view");
   });
 
+  new VenoBox({
+    overlayClose: false,
+    selector: ".venobox-video",
+    bgcolor: "#000",
+    spinColor: "#6843C6",
+    titleattr: "Metabiz",
+    titleColor: "#fff",
+    overlayColor: "rgba(2,44,72,.85)",
+  });
+
   // ------------ increase products -----------
   $(".qt-plus").click(function () {
     $(this)

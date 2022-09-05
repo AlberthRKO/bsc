@@ -7662,7 +7662,7 @@ footer .idiomas li a,
   border: 1px solid #9993;
   background: url(../../img/fondos/fondo1.png) center center / cover;
 }
-.nftsitos .features-card,
+.avatares .features-card,
 .metaverso .features-card{
   background: url(../../img/fondos/fondo3.jpg) center center / cover;
 }
@@ -7714,4 +7714,76 @@ footer .idiomas li a,
 }
 .content-info:hover{
   background-color: red !important;
+}
+
+
+
+
+/* Seccion de video */
+.contenedor-video {
+  z-index: 10;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 20px 1px rgba(255, 110, 0, 0.1);
+          box-shadow: 5px 5px 20px 1px rgba(255, 110, 0, 0.1);
+}
+
+.contenedor-video a {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 7rem;
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  color: #6843C6;
+  font-size: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-clip: padding-box;
+  /* asemos que el border creado no se una con el color de fondo y con padding se aleja del color */
+  border: 0 solid transparent;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.contenedor-video a:hover {
+  background-color: #6843C6;
+  color: white;
+  border: 0.8rem solid rgba(255, 255, 255, 0.5);
+}
+
+/* // bootstrap usa text-truncate para hacer lo mismo
+  .contenedor-video{
+      overflow: hidden;
+  } */
+.contenedor-video img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.contenedor-video:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.vbox-close {
+  margin-top: 20px;
+  margin-right: 20px;
+  color: #ff6e00 !important;
+}
+
+@media (min-width: 992px) {
+  .venoratio {
+    width: 960px;
+    height: 540px;
+  }
 }
