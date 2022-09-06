@@ -460,6 +460,37 @@ $(document).ready(function () {
       },
     },
   });
+  var swiper2 = new Swiper(".screenshots2-slider.style-4 .swiper-container", {
+    slidesPerView: 5,
+    spaceBetween: 0,
+    centeredSlides: true,
+    speed: 1000,
+    pagination: false,
+    navigation: false,
+    mousewheel: false,
+    keyboard: true,
+    autoplay: {
+      delay: 4000,
+    },
+    loop: true,
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      480: {
+        slidesPerView: 1,
+      },
+      787: {
+        slidesPerView: 1,
+      },
+      991: {
+        slidesPerView: 1,
+      },
+      1200: {
+        slidesPerView: 2,
+      },
+    },
+  });
 
   // ------------ clients sliders -----------
   let SwiperBottom = new Swiper(".clients-slider5 .swiper-container", {

@@ -4681,7 +4681,7 @@ header.style-6 {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     /* le damos color degradado */
-    background:linear-gradient(to top, #fff, transparent);
+    background:linear-gradient(to top, #dee2e7, transparent);
     z-index: 10; }
   .screenshots.style-4 .screenshots-slider {
     position: absolute;
@@ -4708,6 +4708,93 @@ header.style-6 {
     transform: translateX(-33%);
     height: 600px;
     z-index: 10; }
+
+
+
+/* --------------- screenshots2 style-4 --------------- */
+.screenshots2.style-4 {
+  background-color: transparent;
+  overflow: hidden;
+  padding-top: 100px;
+  position: relative;
+  height: 700px; }
+  .screenshots2.style-4::after {
+    position: absolute;
+    content: "";
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* le damos color degradado */
+    background:linear-gradient(to top, #fff, transparent);
+    z-index: 10; }
+  .screenshots2.style-4 .screenshots2-slider {
+    position: absolute;
+    top: 110px;
+    width: calc(100% + 120px);
+    left: -60px; }
+    .screenshots2.style-4 .screenshots2-slider .img {
+      margin: 0 auto;
+      width: 645px;
+      height: 290px; }
+      .screenshots2.style-4 .screenshots2-slider .img img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 20px; }
+  .screenshots2.style-4 .mob-hand {
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    -webkit-transform: translateX(-36.5%);
+    -ms-transform: translateX(-36.5%);
+    transform: translateX(-36.5%);
+    height: 510px;
+    z-index: 10; }
+
+    @media (max-width: 992px) {
+      .screenshots2.style-4 .screenshots2-slider .img{
+        width: 61.3% !important;
+        /* height: auto !important; */
+      }
+      .screenshots2.style-4 .mob-hand{
+        top: 60px;
+        height: 500px;
+      
+      }
+    }
+    @media (max-width: 768px) {
+      .screenshots2.style-4 .screenshots2-slider .img{
+        width: 61% !important;
+        /* height: auto !important; */
+      }
+    }
+    @media (max-width: 576px) {
+      .screenshots2.style-4 .screenshots2-slider .img{
+        width: 58% !important;
+        height: 200px !important;
+      }
+      .screenshots2.style-4 .mob-hand{
+        top: 70px;
+        height: 350px;
+      
+      }
+    }
+    @media (max-width: 420px) {
+      .screenshots2.style-4 .screenshots2-slider .img{
+        width: 56% !important;
+        height: 140px !important;
+      }
+      .screenshots2.style-4 .mob-hand{
+        top: 78px;
+        height: 250px;
+      
+      }
+    }
 
 /* ===============================================================
 			[ * features Section ] 
@@ -7516,14 +7603,17 @@ header.style-4 .content .info h1{
 .nera-section{
   padding-bottom: 0px !important;
 }
+.screenshots2.style-4 .screenshots2-slider .img ,
 .screenshots.style-4 .screenshots-slider .img {
   position: relative;
   transition: all .3s ease;
   box-shadow: 0px 26px 77px 0px #44444426;
 }
+.screenshots2.style-4 .screenshots2-slider .img ,
 .screenshots.style-4 .screenshots-slider .img {
   border-radius: 20px;
 }
+.screenshots2.style-4 .screenshots2-slider .img::before,
 .screenshots.style-4 .screenshots-slider .img::before {
   content: "";
   position: absolute;
@@ -7539,6 +7629,7 @@ header.style-4 .content .info h1{
   height: 100%;
   z-index: -2;
 }
+.screenshots2.style-4 .screenshots2-slider .img:hover::before,
 .screenshots.style-4 .screenshots-slider .img:hover::before{
   width: 103%;
   transform: rotate(2deg) translateX(-7px) translateY(11px) !important;
@@ -7649,6 +7740,21 @@ footer .idiomas li a,
   background-repeat: no-repeat;
 }
 .nera-section::before {
+  content: "";
+  background: rgba(243, 247, 254, 0.9);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.shooter-section{
+  position: relative;
+  background: url(../../img/shooter/WhatsApp\ Image\ 2022-09-05\ at\ 18.41.29.jpeg) center center / cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+}
+.shooter-section::before {
   content: "";
   background: rgba(243, 247, 254, 0.9);
   position: absolute;
