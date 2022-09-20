@@ -68,7 +68,8 @@
         "meta-subtitle":"La primera mansión de lujo en el metaverso, Blockchain Smart Metaverse Development es un proyecto que abre un espacio para reuniones, conferencias, consultorías, talleres, confraternizaciones y eventos de todo tipo en el mundo virtual. <br> Creemos una comunidad mundial en el metaverso para unirnos e intercambiar conocimientos sobre tecnología blockchain, finanzas descentralizadas e innovaciones.",
         "ava-subtitle":"Con profesionales y diseñadores que trabajan en el mercado de juegos y modelado 3D, el Proyecto Blockchain Smart Avatar crea y desarrolla avatares para varios propósitos. <br> Los avatares son la próxima herramienta de interacción y comunicación web, transformando por completo la forma en que eres y permaneces en línea en la era Web 3.0. <br> Nuestro proyecto se enfoca en construir avatares desde cero, satisfaciendo las demandas y necesidades de los clientes en todas las partes del proceso.",
         "web-subtitle":"La Web 3.0 es el próximo paso evolutivo de Internet. Un formato de red descentralizado basado en blockchain con mayor privacidad, libertad y presencia de inteligencia artificial. <br> Blockchain Ekosystem utiliza la Web 3.0 como mecanismo de desarrollo, organización y soporte de todos nuestros proyectos, además del propio ecosistema. Nuestros clientes tendrán un entorno empresarial seguro, menos burocrático, privado y más ágil.",
-        "copy":"Copyright © 2022 <a href='#' class='fw-bold text-decoration-underline'>Blockchain Ekosystem</a> | Todos los derechos reservados"
+        "copy":"Copyright © 2022 <a href='#' class='fw-bold text-decoration-underline'>Blockchain Ekosystem</a> | Todos los derechos reservados",
+        "dir":"Dirección:"
     },
     "en":{
         "topbar":"Request any service <a href='#' class='p-0'><u>Know more</u></a>",
@@ -139,7 +140,8 @@
         "meta-subtitle":"The first luxury mansion in the metaverse, Blockchain Smart Metaverse Development is a project that opens a space for meetings, lectures, consulting, workshops, fraternization and events of all kinds in the virtual world. <br> Let's create a worldwide community in the metaverse to unite and exchange knowledge about blockchain technology, decentralized finance and innovations.",
         "ava-subtitle":"With professionals and designers working in the 3D modeling and games market, the Blockchain Smart Avatar Project creates and develops avatars for various purposes. <br> Avatars are the next web interaction and communication tool, completely transforming the way you are and stay online in the Web 3.0 era. <br> Our project focuses on building avatars from scratch, meeting the demands and needs of customers in all parts of the process.",
         "web-subtitle":"Web 3.0 is the next evolutionary step for the internet. A blockchain-based decentralized network format with increased privacy, freedom and presence of artificial intelligence. <br> Blockchain Ekosystem uses Web 3.0 as a development, organization and support mechanism for all our projects, in addition to the ecosystem itself. Our customers will have a safe, less bureaucratic, private and more agile business environment.",
-        "copy":"Copyright © 2022 <a href='#' class='fw-bold text-decoration-underline'>Blockchain Ekosystem</a> | All rights reserved"
+        "copy":"Copyright © 2022 <a href='#' class='fw-bold text-decoration-underline'>Blockchain Ekosystem</a> | All rights reserved",
+        "dir":"Address:"
     },
     "br":{
         "topbar":"Solicite qualquer serviço <a href='#' class='p-0'><u>Saber mais</u></a>",
@@ -211,7 +213,8 @@
         "meta-subtitle":"Primeira mansão de luxo no metaverso, a Blockchain Smart Metaverse Development é um projeto que inaugura um espaço para reuniões, palestras, consultorias, workshops, confraternizações e eventos de todo tipo no mundo virtual. <br> Vamos criar uma comunidade mundial no metaverso para unirmos e trocarmos conhecimento sobre tecnologia blockchain, finanças descentralizadas e inovações.",
         "ava-subtitle":"Com profissionais e designers de atuação no mercado de modelagem 3D e dos games, o Blockchain Smart Avatar Project cria e desenvolve avatares para diversos fins. <br> Os avatares são a próxima ferramenta de interação e comunicação da web, transformando completamente a maneira de estar e permanecer online na era da Web 3.0. <br> Nosso projeto se foca em construção de avatares do zero, atendendo às demandas e necessidades dos clientes em todas as partes do processo.",
         "web-subtitle":"A Web 3.0 é o próximo passo evolutivo da internet. Um formato de rede descentralizado baseado em blockchain com maior privacidade, liberdade e presença de inteligência artificial. <br> A Blockchain Ekosystem usa a Web 3.0 como mecanismo de desenvolvimento, organização e suporte para todos os nossos projetos, além do próprio ecossistema. Nossos clientes terão um ambiente seguro, desburocratizado, privado e mais ágil para os negócios.",
-        "copy":"Copyright © 2022 <a href='#' class='fw-bold text-decoration-underline'>Blockchain Ekosystem</a> | Todos os direitos reservados"
+        "copy":"Copyright © 2022 <a href='#' class='fw-bold text-decoration-underline'>Blockchain Ekosystem</a> | Todos os direitos reservados",
+        "dir":"Morada:"
     }
 }
 
